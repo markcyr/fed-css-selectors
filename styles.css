@@ -1,2 +1,87 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+html {
+    COLOR: red;
+    FONT-FAMILY: Impact,"Franklin Gothic Bold", Charcoal, "‘Helvetica Inserat";
+    FONT-SIZE: 15pt;
+    FONT-STYLE: oblique;
+}
+
+H1 {
+    color: white;
+    background: teal;
+    FONT-FAMILY:"Times New Roman", Georgia, Times,  serif;
+    FONT-SIZE: 48px;
+    FONT-STYLE: normal;
+}
+
+H2 {
+    color: blue;
+    background-color: yellow;
+    FONT-FAMILY: Georgia, Times, "Times New Roman", serif;
+    FONT-SIZE: 32px;
+    FONT-STYLE: italic;
+}
+
+header {
+    border-bottom: 1px;
+    border-bottom: 4px dotted;
+    border-bottom: medium dashed green;
+}
+
+.class-list{
+  border: 4px dotted;
+  list-style-type: square;
+  }
+
+.class-odd {
+  background-color: #000000;
+  color: white;
+}
+
+.class-even {
+  background-color: #999999;
+}
+
+.locallink {
+    COLOR: #dddddd;
+    FONT-FAMILY: arial, helvetica, "lucida-sans", sans-serif;
+    FONT-SIZE: 24px;
+    FONT-WEIGHT: normal;
+
+}
+
+.linespace {
+    LINE-HEIGHT: 420%
+}
+
+#item1 {
+    font-size: 30px;
+}
+
+#item2 {
+    text-align: right;
+}
+
+#advanced-selectors{
+    padding: 1px;
+background-color: grey;
+
+}
+
+#advanced-selectors :nth-child(2n+1){
+  background-color: green;
+}
+
+.hov:hover {
+  text-decoration: none;
+  }
+
+.yel:hover  {
+    background-color: yellow;
+    text-decoration: red;
+
+
+
+  }

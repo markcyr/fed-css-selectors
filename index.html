@@ -8,13 +8,14 @@
     <!-- <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> -->
 
     <!-- Un-comment the following line to see wht the document looks like with Normalize applied -->
-    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css"> -->
-
+     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+     <link rel="stylesheet" href="styles.css">
     <!-- HINT: Only uncomment one of the above at a time and make sure to refresh your browser to see the effects! -->
 
     <!-- Re-comment both of the above <link> tags once you've seen their effect -->
 
     <style>
+
       /* Put your styles here to get started */
 
       /*
@@ -46,7 +47,7 @@
 
       <section>
         <h2>Tag Selectors</h2>
-        <p>
+        <p >
           Tag selectors are the broadest type of selector. They'll select all
           elements on the page that have a particular tag, regardless of classes
           or ids.
@@ -65,7 +66,7 @@
             <p>
               Use a tag selector to set the <code>font-family</code> for
               <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> elements.
-              <a href="http://www.smashingmagazine.com/2009/09/22/complete-guide-to-css-font-stacks/" target="_blank">
+              <a href="http://www.smashingmagazine.com/2009/09/22/complete-guide-to-css-font-stacks/" class="locallink" target="_blank">
                 Check out some different ways of setting your font stack
               </a>.
             </p>
@@ -82,7 +83,7 @@
 
       <section>
         <h2>Class Selectors</h2>
-        <p>
+        <p class="linespace" >
           Class selectors are more specific than tag selectors. They'll select
           all elements on the page that have a certain class applied to them.
           You'll use class selectors most often to apply styles to elements
@@ -91,19 +92,19 @@
         </p>
 
         <ul class="class-list">
-          <li class="item odd">
+          <li class="class-odd">
             <p>Change the <code>list-style-type</code> of this list (.class-list) to 'square'</p>
           </li>
-          <li class="item even">
+          <li class="class-even">
             <p>Give every element with class 'item' a border</p>
           </li>
-          <li class="item odd">
+          <li class="class-odd">
             <p>Give elements with class 'even' a <code>background-color</code> of 'grey'</p>
           </li>
-          <li class="item even">
+          <li class="class-even">
             <p>Give elements with class 'odd' a <code>background-color</code> of 'black' and a <code>color</code> of 'white'</p>
           </li>
-          <li class="item odd">
+          <li class="class-odd">
             <p>You're done!</p>
           </li>
         </ul>
@@ -131,7 +132,7 @@
       </section>
     </article>
 
-    <article id="advanced-selectors" class="exercises">
+    <article  class="exercises">
       <h1>Advanced Selectors</h1>
       <p>
         Here we'll play around with using more advanced selectors to target
@@ -140,7 +141,7 @@
         complete the tasks in this section.
       </p>
 
-      <ol>
+      <ol id="advanced-selectors">
         <li>
           <p>
             Style every item in this list with some <code>padding</code> and a
@@ -162,7 +163,7 @@
         <li>
           <p>
             Select this link by its title attribute and turn off the underline when it's hovered
-            <a href="https://bitmakerlabs.com/" title="Bitmaker">Bitmaker Labs</a>
+            <a href="https://bitmakerlabs.com/" class="hov" "title="Bitmaker">Bitmaker Labs</a>
           </p>
         </li>
         <li>
@@ -172,7 +173,7 @@
             elsewhere in the document.
           </p>
 
-          <ul>
+          <ul class="yel">
             <li><a href="#">Subitem 001</a></li>
             <li><a href="#">Subitem 002</a></li>
             <li><a href="#">Subitem 003</a></li>
